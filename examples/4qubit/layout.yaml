@@ -1,0 +1,54 @@
+chip:
+  width: 1000
+  height: 1000
+  grid_size: 10
+process:
+  d1: 40
+  d2: 80
+  db: 20
+  r: 50
+escape_edges:
+  left: true
+  right: true
+  top: true
+  bottom: true
+obstacles:
+  - name: resonator_1
+    type: rectangle
+    x: 400
+    y: 420
+    width: 120
+    height: 40
+  - name: resonator_2
+    type: rectangle
+    x: 300
+    y: 650
+    width: 180
+    height: 50
+control_starts:
+  - name: c_q1
+    x: 450
+    y: 500
+  - name: c_q2
+    x: 250
+    y: 250
+  - name: c_q3
+    x: 700
+    y: 260
+  - name: c_q4
+    x: 760
+    y: 760
+readout_starts:
+  - name: r_q1
+    x: 500
+    y: 460
+  - name: r_q2
+    x: 260
+    y: 700
+  - name: r_q3
+    x: 640
+    y: 680
+  - name: r_q4
+    x: 840
+    y: 500
+
