@@ -144,6 +144,4 @@ qeda-router demo --out outputs/demo
 
 This project was developed with AI coding assistance. The AI helped scaffold code, tests, and documentation, but the routing logic, modeling assumptions, DRC interpretation, and any future engineering decisions still require human review. This repository is intentionally framed as a learning/demo project rather than a production EDA tool.
 
-## Resume-Ready Project Description
 
-Built a Python-based learning demo for superconducting quantum chip auto-routing, including YAML-driven layout modeling, fine-grid escape routing, line-order search, bend-aware local optimization, basic DRC checks, and report/visualization export through a Typer CLI.
